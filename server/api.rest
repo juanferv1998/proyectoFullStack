@@ -1,0 +1,17 @@
+###
+
+POST http://localhost:4000/work
+Content-Type: application/json
+
+{
+    "id_tecnico":"pruebaextra",
+    "id_servicio":"Infraestructura",
+    "fecha_inicio":"2020-10-22 18:36:14.197",
+    "fecha_fin":"2020-10-23 01:37:14.197"
+}
+
+###
+
+GET http://localhost:4000/work/find
+
+
